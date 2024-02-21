@@ -10,15 +10,15 @@ B1: Validating ✅
 
 B2: Unit testing of models ✅
 ## Task C
-C1: Creating the catalog listing
+C1: Creating the catalog listing ✅
 
-C2: Adding a page layout
+C2: Adding a page layout ✅
 
-C3: Using a helper to format the price
+C3: Using a helper to format the price ✅
 
-C4: Function testing of controllers
+C4: Function testing of controllers ✅
 
-C5: Caching of partial results
+C5: Caching of partial results ✅
 ## Task D
 D1: Finding a cart
 
