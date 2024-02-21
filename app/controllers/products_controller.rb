@@ -41,6 +41,9 @@ class ProductsController < ApplicationController
       if @product.update(product_params)
         format.html { redirect_to product_url(@product), notice: "Product was successfully updated." }
         format.json { render :show, status: :ok, location: @product }
+
+        # We're calling broadcast_replace_later_to because we want the messages to go out async, and generally after this requests completes. We specify the channel and the partial to be used.
+        @product.broadcast_replace_later_to "products", partial: "store/product"
       else
         puts @product.errors.full_messages
         format.html { render :edit, status: :unprocessable_entity }

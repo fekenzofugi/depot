@@ -20,25 +20,25 @@ C4: Function testing of controllers ✅
 
 C5: Caching of partial results ✅
 ## Task D
-D1: Finding a cart
+D1: Finding a cart ✅
 
-D2: Connecting products to carts
+D2: Connecting products to carts ✅
 
-D3: Adding a Button
+D3: Adding a Button ✅
 ## Task E
-E1: Creating a smarter cart
+E1: Creating a smarter cart ✅
 
-E2: Handling Errors
+E2: Handling Errors ✅
 
-E3: Finishing the cart
+E3: Finishing the cart ✅
 ## Task F
-F1: Moving the cart
+F1: Moving the cart ✅
 
-F2: Creating a hotwired cart
+F2: Creating a hotwired cart ✅
 
-F3: Highlighting changes
+F3: Highlighting changes ✅
 
-F4: Broadcasting updates with action cable
+F4: Broadcasting updates with action cable ✅
 ## Task G
 G1: Capturing an order
 
